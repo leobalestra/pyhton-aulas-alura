@@ -38,3 +38,16 @@ print(conta1)
 conta2 = Poupanca(2)
 conta2.deposita(1000)
 conta2.passa_um_mes()
+
+#evitaremos usa o array
+import array as arr
+
+arr.array('d', [1, 3.5])
+print(arr.array('d', [1, 3.5]))
+print(type(arr.array('d', [1, 3.5])))
+
+import numpy as np
+numeros = np.array([1, 3.5])
+print(numeros)
+print(numeros + 3)
+
